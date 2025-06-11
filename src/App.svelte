@@ -3,8 +3,5 @@
 </script>
 
 <main>
-	<NavBar />
+	<NavBar page="Home" />
 </main>
-
-<style>
-</style>
