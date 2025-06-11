@@ -1,0 +1,6 @@
+@import "tailwindcss";
+@import "./style/dark.css";
+
+@media (prefers-color-scheme: light) {
+  @import "./style/light.css";
+}

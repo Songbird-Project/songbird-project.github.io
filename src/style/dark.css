@@ -1,0 +1,44 @@
+:root {
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.dropdown {
+  padding: 5px;
+}
+
+.dropdown.button {
+  transition: 0.3s;
+
+  font-size: 2em;
+  font-weight: bolder;
+}
+
+.dropdown.button.active {
+  transform: rotate(90deg);
+  transition: 0.3s;
+}
+
+.dropdown.menu {
+  border-radius: .5em;
+  background-color: #2e2e2e;
+  border: 0.15em solid #e48ac7;
+}
+
+.dropdown.item {
+  border-radius: .5em;
+  padding: 10px;
+}
+
+.dropdown.item:hover {
+  background-color: #e48ac7;
+  transition: 0.3s;
+}
+
+.dropdown.item:active {
+  background-color: #b25c96;
+}
