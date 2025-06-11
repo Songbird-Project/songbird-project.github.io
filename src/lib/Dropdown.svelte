@@ -1,5 +1,5 @@
 <script lang="ts">
-	let { items, style } = $props();
+	let { items, page } = $props();
 	let isDropdownOpen = $state(false);
 	let dropped = $state(false);
 
@@ -9,7 +9,6 @@
 
 	const handleDropdownClick = async () => {
 		isDropdownOpen = !isDropdownOpen;
-		await sleep(100);
 		dropped = !dropped;
 	};
 
@@ -22,21 +21,40 @@
 		isDropdownOpen = false;
 		dropped = false;
 	};
+
+	const name2Href = (name: string) => {
+		name = name.toLowerCase();
+
+		name = "../projects/" + name.replace(" ", "-") + ".svelte";
+
+		return name;
+	};
 </script>
 
-<div class="flex justify-between items-center {style}">
+<div
+	class="dropdown flex justify-between items-center relative fixed top-0 left-0 right-0"
+>
+	<img src="/SongbirdOS.svg" alt="" />
+	<p>Songbird</p>
 	<div class="dropdown" onfocusout={handleDropdownFocusLoss}>
 		<button
-			class="dropdown button {isDropdownOpen ? 'active' : ''}"
-			onclick={handleDropdownClick}>></button
+			class="dropdown button underline decoration-3 {isDropdownOpen
+				? 'active'
+				: ''}"
+			onclick={handleDropdownClick}>{page}</button
 		>
 		<ul
-			class="dropdown menu"
-			style:visibility={dropped ? "visible" : "hidden"}
+			class="absolute dropdown menu w-max {isDropdownOpen
+				? 'active'
+				: ''}"
+			style:display={dropped ? "block" : "none"}
 		>
 			{#each items as item}
-				<li class="dropdown item">
-					<button>{item}</button>
+				<li class="dropdown item relative w-full">
+					<a
+						class="text-left w-full"
+						href={name2Href(item)}>{item}</a
+					>
 				</li>
 			{/each}
 		</ul>
