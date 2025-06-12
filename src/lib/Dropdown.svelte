@@ -26,7 +26,7 @@
 		if (name! in items) {
 			name = "../projects/not-found.html";
 		} else if (name == "Home") {
-			name = "../../index.html";
+			name = "/";
 		} else {
 			name = "/" + name.toLowerCase().replaceAll(" ", "-");
 		}
