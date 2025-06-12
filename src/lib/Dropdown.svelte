@@ -28,10 +28,7 @@
 		} else if (name == "Home") {
 			name = "../../index.html";
 		} else {
-			name =
-				"/" +
-				name.toLowerCase().replaceAll(" ", "-") +
-				".html";
+			name = "/" + name.toLowerCase().replaceAll(" ", "-");
 		}
 
 		return name;
@@ -41,7 +38,7 @@
 <div
 	class="dropdown flex justify-between items-center relative fixed top-0 left-0 right-0"
 >
-	<img src="/SongbirdOS.svg" alt="" />
+	<img src="/favicon.svg" alt="" />
 	<p>Songbird</p>
 	<div class="dropdown" onfocusout={handleDropdownFocusLoss}>
 		<button
@@ -61,6 +58,7 @@
 					<a
 						class="text-left w-full"
 						href={string2Href(item)}
+						onclick={() => (page = item)}
 						>{item}</a
 					>
 				</li>
