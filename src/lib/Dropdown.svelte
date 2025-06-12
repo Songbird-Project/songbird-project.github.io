@@ -55,11 +55,12 @@
 		>
 			{#each items as item}
 				<li class="dropdown item relative w-full">
-					<a
+					<button
 						class="text-left w-full"
-						href={string2Href(item)}
 						onclick={() => (page = item)}
-						>{item}</a
+						><a href={string2Href(item)}
+							>{item}</a
+						></button
 					>
 				</li>
 			{/each}
