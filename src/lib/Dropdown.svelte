@@ -24,7 +24,7 @@
 
 	const string2Href = (name: string) => {
 		if (name! in items) {
-			name = "../projects/not-found.html";
+			name = "/not-found";
 		} else if (name == "Home") {
 			name = "/";
 		} else {
