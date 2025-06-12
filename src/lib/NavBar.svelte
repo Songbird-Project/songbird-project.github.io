@@ -1,18 +1,9 @@
 <script lang="ts">
 	import Dropdown from "./Dropdown.svelte";
 
-	let { page } = $props();
+	let { page, pages } = $props();
 </script>
 
 <nav class="flex justify-between navbar overflow-visible">
-	<Dropdown
-		items={[
-			"Home",
-			"Operating System",
-			"Package Manger",
-			"Desktop Environment",
-			"Window Manager",
-		]}
-		{page}
-	/>
+	<Dropdown items={pages} {page} />
 </nav>

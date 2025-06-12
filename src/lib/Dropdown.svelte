@@ -22,10 +22,17 @@
 		dropped = false;
 	};
 
-	const name2Href = (name: string) => {
-		name = name.toLowerCase();
-
-		name = "../projects/" + name.replace(" ", "-") + ".svelte";
+	const string2Href = (name: string) => {
+		if (name! in items) {
+			name = "../projects/not-found.html";
+		} else if (name == "Home") {
+			name = "../../index.html";
+		} else {
+			name =
+				"../projects/" +
+				name.toLowerCase().replaceAll(" ", "-") +
+				".html";
+		}
 
 		return name;
 	};
@@ -53,7 +60,8 @@
 				<li class="dropdown item relative w-full">
 					<a
 						class="text-left w-full"
-						href={name2Href(item)}>{item}</a
+						href={string2Href(item)}
+						>{item}</a
 					>
 				</li>
 			{/each}
