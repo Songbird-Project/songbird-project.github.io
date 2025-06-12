@@ -29,7 +29,7 @@
 			name = "../../index.html";
 		} else {
 			name =
-				"../projects/" +
+				"/" +
 				name.toLowerCase().replaceAll(" ", "-") +
 				".html";
 		}
