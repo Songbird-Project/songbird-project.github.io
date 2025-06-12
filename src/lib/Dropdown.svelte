@@ -33,7 +33,7 @@
 
 		location.replace(name);
 
-		return name;
+		page = name;
 	};
 </script>
 
@@ -60,14 +60,9 @@
 					<button
 						class="text-left w-full"
 						onclick={() =>
-							(page =
-								string2Href(
-									item,
-								))}
+							string2Href(item)}
 					>
-						<!-- <a href={string2Href(item)} -->
 						>{item}
-						<!-- </a -->
 						></button
 					>
 				</li>
