@@ -31,6 +31,8 @@
 			name = "/" + name.toLowerCase().replaceAll(" ", "-");
 		}
 
+		location.replace(name);
+
 		return name;
 	};
 </script>
@@ -57,9 +59,15 @@
 				<li class="dropdown item relative w-full">
 					<button
 						class="text-left w-full"
-						onclick={() => (page = item)}
-						><a href={string2Href(item)}
-							>{item}</a
+						onclick={() =>
+							(page =
+								string2Href(
+									item,
+								))}
+					>
+						<!-- <a href={string2Href(item)} -->
+						>{item}
+						<!-- </a -->
 						></button
 					>
 				</li>
