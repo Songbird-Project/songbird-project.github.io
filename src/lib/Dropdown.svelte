@@ -31,9 +31,7 @@
 			name = "/" + name.toLowerCase().replaceAll(" ", "-");
 		}
 
-		location.replace(name);
-
-		page = name;
+		return name;
 	};
 </script>
 
@@ -57,13 +55,17 @@
 		>
 			{#each items as item}
 				<li class="dropdown item relative w-full">
-					<button
-						class="text-left w-full"
-						onclick={() =>
-							string2Href(item)}
+					<a
+						href={string2Href(item)}
+						class="w-full"
 					>
-						>{item}
-						></button
+						<button
+							class="text-left w-full"
+							onclick={() =>
+								(page = item)}
+						>
+							{item}
+						</button></a
 					>
 				</li>
 			{/each}
