@@ -1,0 +1,1 @@
+import"../chunks/CWj6FrbW.js";import"../chunks/69_IOA4Y.js";import{$ as r}from"../chunks/C1e3sYuR.js";import{h as m}from"../chunks/DlK6sZef.js";import{f as t,a as n}from"../chunks/CEWvIKKU.js";var i=t("<main></main>");function h(o){var a=i();m(p=>{r.title="Songbird Project | Window Manager"}),n(o,a)}export{h as component};
