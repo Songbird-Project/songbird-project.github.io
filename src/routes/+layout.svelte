@@ -36,6 +36,10 @@
 
 			title = toTitleCase(title.replaceAll("-", " "));
 
+			if (title == "") {
+				title = "Home";
+			}
+
 			return title;
 		}
 	};
