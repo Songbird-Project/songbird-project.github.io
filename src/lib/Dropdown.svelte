@@ -33,10 +33,6 @@
 
 		return name;
 	};
-
-	const storePlace = (item: string) => {
-		localStorage.setItem("title", item);
-	};
 </script>
 
 <div
@@ -67,9 +63,9 @@
 							class="text-left w-full"
 							onclick={() => {
 								page = item;
-								storePlace(
-									page,
-								);
+								// storePlace(
+								// page,
+								// );
 							}}
 						>
 							{item}
