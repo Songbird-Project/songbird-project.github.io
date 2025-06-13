@@ -49,3 +49,18 @@
   background-color: #b25c96;
   transition: .2s;
 }
+
+.gradient {
+  background: radial-gradient(#cc74b0, #e48ac7, #f9b1df, #f490d2, #ffe6f4);
+  background-size: 300px 400px;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: sliding-gradient 10s linear infinite;
+}
+
+
+@keyframes sliding-gradient {
+  to {
+    background-position: 600px 800px;
+  }
+}
