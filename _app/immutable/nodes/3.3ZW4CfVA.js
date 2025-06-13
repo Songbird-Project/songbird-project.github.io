@@ -1,1 +1,0 @@
-import"../chunks/CWj6FrbW.js";import"../chunks/69_IOA4Y.js";import{$ as t}from"../chunks/C1e3sYuR.js";import{h as i}from"../chunks/DlK6sZef.js";import{f as m,a}from"../chunks/CEWvIKKU.js";var n=m("<div>hi</div>");function c(o){var r=n();i(p=>{t.title="Songbird Project | Desktop Environment"}),a(o,r)}export{c as component};

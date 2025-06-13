@@ -1,0 +1,1 @@
+import"../chunks/CWj6FrbW.js";import"../chunks/69_IOA4Y.js";import{$ as o}from"../chunks/DVnMUEOl.js";import{h as r}from"../chunks/BlUnAroz.js";function p(t){r(m=>{o.title="Songbird Project | Home"})}export{p as component};

@@ -1,1 +1,0 @@
-import"../chunks/CWj6FrbW.js";import"../chunks/69_IOA4Y.js";import{$ as r}from"../chunks/C1e3sYuR.js";import{h as m}from"../chunks/DlK6sZef.js";import{f as t,a as n}from"../chunks/CEWvIKKU.js";var i=t("<main></main>");function g(a){var o=i();m(e=>{r.title="Songbird Project | Package Manager"}),n(a,o)}export{g as component};

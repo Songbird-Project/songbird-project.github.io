@@ -1,2 +1,0 @@
-import"../chunks/CWj6FrbW.js";import"../chunks/69_IOA4Y.js";import{$ as r}from"../chunks/C1e3sYuR.js";import{h as o}from"../chunks/DlK6sZef.js";import{f as e,a as n}from"../chunks/CEWvIKKU.js";var i=e(`<main class="pt-10"><div class="text-center"><h1 class="text-6xl font-bold pb-3 gradient">SongbirdOS</h1> <span class="italic">A perfect and elegant Arch-based, rolling release
-			distro.</span></div></main>`);function f(a){var t=i();o(s=>{r.title="Songbird Project | Operating System"}),n(a,t)}export{f as component};
