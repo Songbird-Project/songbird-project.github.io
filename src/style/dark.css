@@ -50,12 +50,20 @@
   transition: .2s;
 }
 
-.gradient {
+.gradient-pink {
   background: radial-gradient(#cc74b0, #e48ac7, #f9b1df, #f490d2, #ffe6f4);
   background-size: 300px 400px;
   background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: sliding-gradient 10s linear infinite;
+}
+
+.gradient-blue {
+  background: radial-gradient(#3091cc, #73cbff, #4bb6f0, #9edaff, #c8e9ff);
+  background-size: 75px 100px;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: sliding-gradient 40s linear infinite;
 }
 
 
