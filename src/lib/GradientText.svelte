@@ -1,5 +1,8 @@
 <script lang="ts">
-	let { text, style } = $props();
+	import type { LayoutProps } from "../routes/$types";
+
+	let { style, children }: { style: string; children: LayoutProps } =
+		$props();
 </script>
 
-<p class="gradient {style}">{text}</p>
+<p class="gradient-pink {style}">{@render children()}</p>
