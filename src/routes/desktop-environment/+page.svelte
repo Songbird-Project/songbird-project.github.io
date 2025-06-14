@@ -8,7 +8,10 @@
 
 <main class="pt-10">
 	<div class="text-center">
-		<GradientTitle style="text-6xl pb-3" text="SDE" />
+		<GradientTitle style="text-6xl pb-3"
+			>Songbird<span class="gradient-blue">DE</span
+			></GradientTitle
+		>
 		<span class="italic"></span>
 	</div>
 </main>
