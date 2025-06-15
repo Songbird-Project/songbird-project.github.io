@@ -38,6 +38,8 @@
 
 			if (title == "") {
 				title = "Home";
+			} else if (title == "About") {
+				title = "Project";
 			}
 
 			return title;
