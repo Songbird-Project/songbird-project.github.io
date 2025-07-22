@@ -36,10 +36,10 @@
 </script>
 
 <div
-	class="dropdown flex justify-between items-center relative fixed top-0 left-0 right-0 ml-10 space-x-2"
+	class="dropdown flex justify-between items-center relative fixed top-0 left-0 right-0 ml-10"
 >
 	<img src="/favicon.svg" alt="" />
-	<p>Songbird</p>
+	<p class="pl-10">Songbird</p>
 	<div class="dropdown" onfocusout={handleDropdownFocusLoss}>
 		<button
 			class="dropdown button underline decoration-3 {isDropdownOpen
