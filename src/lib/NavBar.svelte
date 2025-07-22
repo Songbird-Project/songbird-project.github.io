@@ -8,7 +8,7 @@
 <nav class="flex justify-between navbar overflow-visible">
 	<Dropdown items={pages} {page} />
 
-	<div class="flex right items-center justify-between pr-5 space-x-5">
+	<div class="flex right items-center justify-between mr-5 space-x-5">
 		<button
 			class="nav-button"
 			onclick={() =>

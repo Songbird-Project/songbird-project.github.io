@@ -36,7 +36,7 @@
 </script>
 
 <div
-	class="dropdown flex justify-between items-center relative fixed top-0 left-0 right-0 pl-10 space-x-2"
+	class="dropdown flex justify-between items-center relative fixed top-0 left-0 right-0 ml-10 space-x-2"
 >
 	<img src="/favicon.svg" alt="" />
 	<p>Songbird</p>
