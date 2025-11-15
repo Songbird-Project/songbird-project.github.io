@@ -1,3 +1,9 @@
+<script lang="ts">
+  const goto = (target: string) => {
+    location.href = target;
+  };
+</script>
+
 <div class="flex flex-col items-center justify-center gap-4">
   <p>
     The Songbird Project aims to make Linux easier. To do so we're building a
@@ -17,7 +23,10 @@
         perfect system with sane defaults and a beautiful design.
       </p>
       <div class="justify-end card-actions">
-        <button class="btn btn-soft btn-primary">Learn More</button>
+        <button
+          class="btn btn-soft btn-primary"
+          onclick={() => goto("/projects/songbird-os")}>Learn More</button
+        >
       </div>
     </div>
   </div>
@@ -32,7 +41,10 @@
           streamline and stabilise the package management of your system.
         </p>
         <div class="justify-end card-actions">
-          <button class="btn btn-soft btn-primary">Learn More</button>
+          <button
+            class="btn btn-soft btn-primary"
+            onclick={() => goto("/projects/nest")}>Learn More</button
+          >
         </div>
       </div>
     </div>
@@ -46,7 +58,10 @@
           bring eye candy and endless possibilities to all machines.
         </p>
         <div class="justify-end card-actions">
-          <button class="btn btn-soft btn-primary">Learn More</button>
+          <button
+            class="btn btn-soft btn-primary"
+            onclick={() => goto("/projects/swallow")}>Learn More</button
+          >
         </div>
       </div>
     </div>
