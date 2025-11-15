@@ -53,7 +53,7 @@
       <div class="card-body items-center text-center">
         <h2 class="card-title text-xl">Swallow</h2>
         <p>
-          A lightweigth and configurable Wayland Compositor built on the
+          A lightweight and configurable Wayland Compositor built on the
           backbone of <span class="text-primary">Hyprland</span>. It aims to
           bring eye candy and endless possibilities to all machines.
         </p>
