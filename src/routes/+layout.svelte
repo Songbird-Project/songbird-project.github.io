@@ -44,7 +44,7 @@
             <summary>Projects</summary>
             <ul>
               <li><a href="/projects">About</a></li>
-              <li><a href="/projects/songbirdos">SongbirdOS</a></li>
+              <li><a href="/projects/songbird-os">SongbirdOS</a></li>
               <li><a href="/projects/nest">Nest</a></li>
               <li><a href="/projects/swallow">Swallow</a></li>
             </ul>
