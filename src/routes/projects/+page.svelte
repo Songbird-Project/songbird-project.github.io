@@ -31,7 +31,9 @@
     </div>
   </div>
 
-  <div class="flex justify-center items-center gap-5 w-[80%]">
+  <div
+    class="flex-col sm:flex-row flex justify-center items-center gap-4 w-[80%] items-stretch"
+  >
     <div class="card card-border bg-base-100 card-md shadow-sm">
       <div class="card-body items-center text-center">
         <h2 class="card-title text-xl">Nest</h2>
