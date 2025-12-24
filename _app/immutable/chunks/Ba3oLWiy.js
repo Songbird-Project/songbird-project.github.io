@@ -1,4 +1,4 @@
-import"./DsnmJJEf.js";import"./69_IOA4Y.js";import{D as s}from"./sjHtPtAm.js";import{f as n,a as i}from"./B6MCMdZy.js";import{l as h,s as l}from"./B4pvmnDE.js";import{B as p}from"./Bq9q0qWz.js";var m=n(`<p>+++
+import"./DsnmJJEf.js";import"./69_IOA4Y.js";import{D as s}from"./sjHtPtAm.js";import{f as n,a as i}from"./B6MCMdZy.js";import{l as h,s as l}from"./B4pvmnDE.js";import{B as p}from"./D9EpFr52.js";var m=n(`<p>+++
 title = ‘The State of the AUR’
 author = ‘vaelixd’
 date = ‘2025-10-01’
