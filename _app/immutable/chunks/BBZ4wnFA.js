@@ -1,0 +1,7 @@
+import"./DsnmJJEf.js";import"./69_IOA4Y.js";import{C as p,f as d,D as t}from"./sjHtPtAm.js";import{f as i,a}from"./B6MCMdZy.js";import{l as f,s as c}from"./B4pvmnDE.js";import{B as u}from"./Bq9q0qWz.js";import{H as g}from"./Dhh1Xf0o.js";var _=i("First <em>Second</em> Impressions",1),y=i(`<p>+++
+title= “Revisiting the Fish Shell”
+author= “vaelixd”
+date= “2025-10-01”
+tags= [“Software”]
+draft= true
++++</p> <p>About a year ago I streamed for the very first time. The topic of that stream was the <a href=""><em>Fish</em></a> shell. The [VOD] is still available to watch, but I absolutely wouldn’t recommend it. After that short experience with the shell I decided to just stick with my tried and tested <a href=""><em>Zsh</em></a>.</p> <p>Since then, Fish has gone through a couple version changes and even a full Rust rewrite. So, I thought it would be a fitting time to take another look at it.</p> <!> <p>Although I already had my first impressions with the shell when I initially tried it, I don’t remember any specific things that stuck in my mind. So, trying it again was like seeing something familiar yet completely new.</p>`,1);function $(o,r){const s=f(r,["children","$$slots","$$events","$$legacy"]);u(o,c(()=>s,{children:(l,v)=>{var e=y(),n=p(d(e),6);g(n,{children:(h,w)=>{t();var m=_();t(2),a(h,m)},$$slots:{default:!0}}),t(2),a(l,e)},$$slots:{default:!0}}))}const A=Object.freeze(Object.defineProperty({__proto__:null,default:$},Symbol.toStringTag,{value:"Module"}));export{A as _,$ as a};
