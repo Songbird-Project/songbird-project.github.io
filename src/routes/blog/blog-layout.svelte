@@ -12,14 +12,16 @@
   export let tags;
 </script>
 
-<div class="flex-col-reverse sm:flex-row flex justify-center gap-10 mb-10">
-  <div class="text-neutral-content w-[65%]">
+<div
+  class="flex-col-reverse xl:flex-row flex xl:justify-center xl:items-start items-center gap-10 mb-10 xl:text-left"
+>
+  <div class="xl:w-[65%] w-[90%]">
     <slot />
   </div>
 
   <div
     role="alert"
-    class="flex flex-col h-fit alert bg-base-100 text-neutral-content w-[20%]"
+    class="flex flex-col h-fit alert bg-base-100 xl:w-[20%] w-[90%]"
   >
     <Info label="Article" value={title} />
     <Info label="Author" value={author} />

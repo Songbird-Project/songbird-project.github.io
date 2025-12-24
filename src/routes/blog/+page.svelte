@@ -7,16 +7,13 @@
   };
 </script>
 
-<div class="flex flex-col w-[90%] mx-auto gap-5">
+<div class="flex flex-col w-[90%] mx-auto gap-5 mb-10">
   The Songbird Project Blog is where our team share their thoughts and
   experiences of current technologies and software along with project updates
   and announcments.
   {#each data.posts as post}
     <a href={`/blog/${post.slug}`}>
-      <div
-        role="alert"
-        class="alert bg-base-100 flex flex-col items-start text-neutral-content"
-      >
+      <div role="alert" class="alert bg-base-100 flex flex-col items-start">
         <div class="text-lg">
           <time class="font-semibold" datetime={date(post.date)}
             >{post.date}</time

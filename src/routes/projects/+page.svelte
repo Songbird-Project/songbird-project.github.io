@@ -4,13 +4,13 @@
   };
 </script>
 
-<div class="flex flex-col items-center justify-center gap-4">
-  <p>
+<div class="flex flex-col items-center text-center justify-center gap-4">
+  <p class="w-[90%]">
     The Songbird Project aims to make Linux easier. To do so we're building a
     suite of user-first programs.
   </p>
 
-  <div class="card card-border w-[80%] bg-base-100 card-md shadow-sm">
+  <div class="card card-border w-[90%] bg-base-100 card-md shadow-sm">
     <div class="card-body items-center text-center">
       <h2 class="card-title text-xl">SongbirdOS</h2>
       <p>
@@ -32,7 +32,7 @@
   </div>
 
   <div
-    class="flex-col sm:flex-row flex justify-center items-center gap-4 w-[80%] items-stretch"
+    class="flex-col sm:flex-row flex justify-center items-center gap-4 w-[90%] items-stretch"
   >
     <div class="card card-border bg-base-100 card-md shadow-sm">
       <div class="card-body items-center text-center">
